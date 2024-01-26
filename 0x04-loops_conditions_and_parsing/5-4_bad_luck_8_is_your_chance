@@ -1,12 +1,15 @@
 #!/usr/bin/env bash
 # displays Best School 10 times.
 
-COUNTER=0
+COUNTER=1
 while [ $COUNTER -lt 11 ]
 do
-	if [ $COUNTER = 9 ]
+	if [ $COUNTER = 4 ]
 	then
-		echo "Hi"
+		echo "bad luck"
+	elif [ $COUNTER = 8 ]
+	then
+		echo "good luck"
 	else
 		echo "Best School"
 	fi
