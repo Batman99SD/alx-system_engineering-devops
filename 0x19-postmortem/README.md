@@ -34,3 +34,22 @@ The root cause of the outage was a memory leak in the caching layer software, in
 - Improve testing procedures to catch memory leaks before deploying updates.
 - Strengthen the rollback plan for caching layer updates to allow quick reversion in case of issues.
 
+## TO DO
+
+1. Enhance Monitoring:
+
+- Implement detailed memory usage monitoring for the caching layer.
+- Set up alerts for unusual memory consumption patterns.
+
+2. Improve Testing Procedures:
+
+- Incorporate memory leak detection in the testing pipeline for caching layer updates.
+- Conduct regular stress tests to identify potential performance issues.
+
+3. Strengthen Rollback Plan:
+
+- Develop and document a rollback plan for the caching layer, including automated rollback scripts.
+- rain the team on executing the rollback plan quickly and efficiently.
+
+By taking these measures, we aim to prevent similar outages in the future, ensuring our API services remain stable and responsive for our users.
+
